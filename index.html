@@ -3,7 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Salordo — Clinical Infrastructure for AI</title>
+<title>Salordo — The Infrastructure Layer for Clinical AI</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Salordo is the infrastructure stack that allows hospitals to safely deploy AI. Unify clinical data, sandbox AI agents, and enforce safety — deploy AI in weeks, not years.">
+<meta name="keywords" content="clinical AI, healthcare AI infrastructure, hospital AI deployment, AI safety healthcare, HIPAA compliant AI, clinical decision support, EHR integration, AI agent runtime, medical AI platform, healthcare data unification">
+<meta name="author" content="Salordo">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://salordo.com/">
+
+<!-- Open Graph (Facebook, LinkedIn, WhatsApp previews) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://salordo.com/">
+<meta property="og:title" content="Salordo — The Infrastructure Layer for Clinical AI">
+<meta property="og:description" content="The infrastructure stack that allows hospitals to safely deploy AI. Unify clinical data, sandbox AI agents, and enforce safety.">
+<meta property="og:image" content="https://salordo.com/og-image.png">
+<meta property="og:site_name" content="Salordo">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Salordo — The Infrastructure Layer for Clinical AI">
+<meta name="twitter:description" content="The infrastructure stack that allows hospitals to safely deploy AI. Unify clinical data, sandbox AI agents, and enforce safety.">
+<meta name="twitter:image" content="https://salordo.com/og-image.png">
+
+<!-- Favicon (gradient S) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='32' y2='32'><stop offset='0%25' stop-color='%2330D8C8'/><stop offset='100%25' stop-color='%23A66CF5'/></linearGradient></defs><text x='4' y='26' font-size='28' font-weight='800' font-family='system-ui' fill='url(%23g)'>S</text></svg>">
+
+<!-- Structured Data (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Salordo",
+  "description": "The infrastructure layer that allows AI to safely operate inside healthcare. Salordo unifies clinical data, sandboxes AI agents, and enforces safety for hospital AI deployments.",
+  "url": "https://salordo.com",
+  "applicationCategory": "HealthApplication",
+  "operatingSystem": "Cloud",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD",
+    "description": "Request early access"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Salordo",
+    "url": "https://salordo.com"
+  }
+}
+</script>
+
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -1020,8 +1069,8 @@ All calls → <span class="hl">Safety Sandbox</span></div>
   <h2>Ready to make healthcare AI <em class="grad-text">safe?</em></h2>
   <p>Join leading health systems building the future of clinical AI on Salordo.</p>
   <div class="hero-ctas">
-    <a href="#" class="btn-primary">Request Early Access →</a>
-    <a href="#" class="btn-secondary">Talk to Founders</a>
+    <a href="/cdn-cgi/l/email-protection#68000d040407281b0904071a0c07460b0705571b1d0a020d0b1c552d091a04114d5a58290b0b0d1b1b4d5a583a0d191d0d1b1c4d5a588ae8fc4d5a583b0904071a0c074e0a070c115520014d5a583b0904071a0c074d5a581c0d09054d5a2b4d58294d5829214f054d5a5801061c0d1a0d1b1c0d0c4d5a5801064d5a58040d091a0601060f4d5a5805071a0d4d5a58090a071d1c4d5a583b0904071a0c074f1b4d5a580b040106010b09044d5a5829214d5a5801060e1a091b1c1a1d0b1c1d1a0d464d58294d582925114d5a580609050d4d5b294d5a584d582925114d5a58071a0f09060112091c0107064d5b294d5a584d582925114d5a581a07040d4d5b294d5a584d58294d58293c000906031b49" class="btn-primary">Request Early Access →</a>
+    <a href="/cdn-cgi/l/email-protection#ec8489808083ac9f8d80839e8883c28f8381d39f998e86898f98d1a08998cb9fc9dedcb88d8087c9dedc0e6c78c9dedcbf8d80839e8883ca8e838895d1a485c9deafc9dcadc9dcada5cb88c9dedc80858789c9dedc9883c9dedc9f8f848988998089c9dedc8dc9dedc8f83829a899e9f8d98858382c9dedc9b859884c9dedc988489c9dedc8a8399828885828bc9dedc98898d81c2c9dcadc9dcadb8848d82879fcd" class="btn-secondary">Talk to Founders</a>
   </div>
 </section>
 
@@ -1040,23 +1089,4 @@ All calls → <span class="hl">Safety Sandbox</span></div>
     <span class="logo-text" style="font-size:1.15rem;">Salor<span>do</span></span>
   </a>
   <div class="footer-links">
-    <a href="#">Platform</a>
-    <a href="#">Docs</a>
-    <a href="#">Security</a>
-    <a href="#">Contact</a>
-  </div>
-  <div>© 2026 Salordo Inc.</div>
-</footer>
-
-<script>
-const reveals = document.querySelectorAll('.reveal');
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  });
-}, { threshold: 0.1 });
-reveals.forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+    <a 
